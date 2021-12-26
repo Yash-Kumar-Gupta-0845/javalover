@@ -115,6 +115,29 @@ public class Main {
         System.out.println("Input a line :- ");
         String name2 = sc.nextLine();
         System.out.println(name2);
+        //Comparison operators
+        //==,!=,<,>
+        //conditional operators
+        boolean isSunUp = true;
+        if (isSunUp == true)
+            System.out.println("Day");
+        else
+            System.out.println("Night");
+        //logical operators
+        //&&:- both the condition is true
+        int n0=12;
+        int n01=15;
+        if (n0<20 && n01 <20)
+            System.out.println("both less than 20");
+        // || or
+        if (n0<20 || n01 <25)
+            System.out.println("At least one condition is true");
+        //! :- make equal to == not equal to!=
+        boolean isAdt=false;
+        if(isAdt==true) // if (isAdt) both the conditional is valid
+            System.out.println("isAdult");
+        else
+            System.out.println("notAdult");
 
     }
 }
