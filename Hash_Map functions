@@ -1,0 +1,43 @@
+import java.util.*;
+public class Day1{
+    public static void main(String[] args) {
+        //Envoking the data structure 
+        HashMap<Integer, String> hash_map = new HashMap<Integer, String>();
+
+        // Populate the data structure
+            hash_map.put(1, "Red");
+            hash_map.put(2, "Yellow");
+            hash_map.put(3, "Green");
+            hash_map.put(4, "Black");
+            hash_map.put(5, "White");
+            System.out.println("\n Values of First Map: "+ hash_map);
+            // // Updating the key value :
+            // hash_map.put(5,"Pink");
+            // for (Map.Entry x:hash_map.entrySet()){
+            //     System.out.println(x.getKey()+" "+x.getValue());
+            // }
+            // count the entry program:-
+            // System.out.println("Size of HashMap: "+hash_map.size());
+            // to copy all the Mapping from one hash map to other hash map
+            // HashMap<Integer, String> hash_map1 = new HashMap<Integer, String>();
+            // hash_map1.put(6, "Orange");
+            // hash_map1.put(7, "SkyBlue");
+            // hash_map1.put(8, "Margenta");
+            // hash_map1.put(9, "Blue");
+            // hash_map1.put(10, "Violet");
+            // System.out.println("\n Values of Second Map: "+ hash_map1);
+            // hash_map1.putAll(hash_map);
+            // System.out.println("\n Values of Combine Map: "+ hash_map1);
+            //     // Program to remove all entries in hashmap
+            // System.out.println("Original hashmap: "+ hash_map);
+            // hash_map.clear();
+            // System.out.println("The New Map: "+ hash_map);
+            // // map contain val or not
+            boolean result = hash_map.isEmpty();// return true or false if hashmap is empty or not
+            System.out.println("Is HashMap Empty: "+result);
+            hash_map.clear();
+            result = hash_map.isEmpty();
+            System.out.println("Is HashMap Empty: "+result);  
+
+    }
+}
